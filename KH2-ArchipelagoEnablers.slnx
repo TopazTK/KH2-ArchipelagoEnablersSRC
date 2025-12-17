@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="Lite Build" />
+    <BuildType Name="Release" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="KH2-ArchipelagoEnablers.vcxproj" />
+</Solution>
