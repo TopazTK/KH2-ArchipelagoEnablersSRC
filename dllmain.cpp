@@ -693,7 +693,7 @@ extern "C"
 
 		wchar_t _configPath[MAX_PATH];
 		wcscpy(_configPath, mod_path);
-		wcscat(_configPath, L"\\dll\\reFined.cfg");
+		wcscat(_configPath, L"\\dll\\archiConfig.cfg");
 		auto _wideStr = wstring(_configPath);
 
 		mINI::INIFile _configFile(string(_wideStr.begin(), _wideStr.end()));
